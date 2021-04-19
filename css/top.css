@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+font-family: 'Noto Sans JP', sans-serif;
+
+.big-bg {
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+#page-header-wrapper {
+    background-image: url(../img/top.silet1.png);
+    min-height: 100vh;
+}
+
+#logo {
+    opacity: 0.8;
+    vertical-align: top;
+}
+
+#top-nav {
+    display: flex;
+}
+
+#main-menu a {
+    color: #5b5b5b;
+}
+
+#main-menu a:hover {
+    color: deeppink;
+}
+
+.btn {
+    margin-left: 700px;
+}
+
+#btn1 {
+    margin-right: 20px;
+}
+button {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border-radius: 7px;
+    width: 100px;
+    height: 40px;
+}
+
+#main-menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.block {
+    display: flex;
+    font-size: 1.25rem;
+
+}
+
+.photo {
+    width: 50%;
+
+}
+
+.article {
+    width: 50%;
+
+}
+
+
+h3 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.section-site-footer {
+    background-color: #cceeff;
+}
+#intro {
+    display: flex;
+    justify-content: space-around;
+}
+
+#ft1 {
+    margin-top: 50px;
+}
+#ft2 {
+    margin-top: 100px;
+}
+
+#sns {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#icon1, #icon2, #icon3 {
+    margin-right: 20px;
+}
+#footer-logo {
+    width: 70%;
+    opacity: 0.9;
+}
+#sub-menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-size: 0.8rem;
+}
+
+#sub-menu a {
+    text-decoration: none;
+    color: #5b5b5b;
+}
+
+#sub-menu a:hover {
+    color: deeppink;
+}
+
+.copy-box {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: 0.75rem;
+    bottom: 0;
+}

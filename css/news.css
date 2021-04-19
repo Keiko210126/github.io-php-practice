@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+font-family: 'Noto Sans JP', sans-serif;
+
+html {
+    font-size: 100%;
+    
+}
+
+body {
+
+    color: #5b5b5b;
+}
+
+/* contact */
+#logo {
+    display: block;
+width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.section-header {
+    display: block;
+    color: white;
+    background-color: blue;
+    margin: 0 0;
+}
+
+.container {
+    height: 60px;
+    margin: 0 0;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+#main-menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0;
+}
+
+#main-menu a {
+    text-decoration:none;
+    color: #5b5b5b;
+}
+
+#main-menu a:hover {
+    color: deeppink;
+}
+
+#contents {
+    margin-bottom: 335px;
+}
+
+#sub-menu {
+    display: flex;
+    list-style:none;
+    justify-content: space-between;
+    font-size: 0.8rem;
+}
+
+#sub-menu a {
+    text-decoration: none;
+    color: #5b5b5b;
+}
+
+#sub-menu a:hover {
+    color: deeppink;
+}
+.copy-box {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: 0.75rem;
+    bottom: 0;
+}
